@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 import "fmt"
 
@@ -68,5 +68,5 @@ func romanToInt(s string) int {
 }
 
 func main() {
-	fmt.Println(romanToInt("MCMXCIII"))
+	fmt.Println("MCMXCIII")
 }
