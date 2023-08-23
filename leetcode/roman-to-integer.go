@@ -1,7 +1,5 @@
 package leetcode
 
-import "fmt"
-
 func romanToInt(s string) int {
 	var symbols = make(map[byte]int)
 	symbols['I'] = 1
@@ -65,8 +63,4 @@ func romanToInt(s string) int {
 	}
 
 	return total
-}
-
-func main() {
-	fmt.Println("MCMXCIII")
 }
